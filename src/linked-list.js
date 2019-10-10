@@ -26,18 +26,11 @@ class LinkedList {
     }
 
     head() {
-        if (this.length != 0) {
-            return this._head.data;
-        }
-        else {
-            return this._head;
-        }
+        return this._head.data;
     }
 
     tail() {
-        if (this.length != 0) 
-            return this._tail.data;
-        return this._tail;
+        return this._tail.data;
     }
 
     at(index) {
